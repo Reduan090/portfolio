@@ -1,0 +1,40 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+.btn-primary{
+    width: 100px;
+    height: 40px;
+    flex-shrink: 0;
+    background-color:#fd6e0a ;
+    border-radius: 5px;
+    border: 0;
+    color: white;
+    font-weight: 700;
+    font-size: 17px;
+}
+.nav-title{
+    color: black;
+    font-family: open sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+nav >ul{
+     display: flex;
+     align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav a{
+    text-decoration: none;
+    color: #474747;
+}

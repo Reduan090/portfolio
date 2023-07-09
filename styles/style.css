@@ -2,21 +2,21 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
 body{
     font-family: 'Open Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
 }
 .btn-primary{
-    width: 100px;
-    height: 40px;
-    flex-shrink: 0;
+   
     background-color:#fd6e0a ;
     border-radius: 5px;
     border: 0;
     color: white;
     font-weight: 700;
     font-size: 17px;
+    padding: 1;
 }
 .nav-title{
     color: black;
@@ -37,4 +37,15 @@ nav li{
 nav a{
     text-decoration: none;
     color: #474747;
+}
+.header{
+    background-color: #FFF8F3;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner .profile-pic{
+    width: 400px;
 }

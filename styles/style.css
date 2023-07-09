@@ -1,16 +1,18 @@
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0 200px;
 }
-body{
+
+body {
     font-family: 'Open Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
 }
-.btn-primary{
-   
-    background-color:#fd6e0a ;
+
+.btn-primary {
+
+    background-color: #fd6e0a;
     border-radius: 5px;
     border: 0;
     color: white;
@@ -18,7 +20,8 @@ body{
     font-size: 17px;
     padding: 1;
 }
-.nav-title{
+
+.nav-title {
     color: black;
     font-family: open sans;
     font-size: 45px;
@@ -26,26 +29,94 @@ body{
     font-weight: 800;
     line-height: normal;
 }
-nav >ul{
-     display: flex;
-     align-items: center;
-}
-nav li{
-    list-style: none;
-    margin-right: 50px;
-}
-nav a{
-    text-decoration: none;
-    color: #474747;
-}
-.header{
-    background-color: #FFF8F3;
-}
-.banner{
-    padding: 30px 30px 30px 150px;
+
+nav>ul {
     display: flex;
     align-items: center;
 }
-.banner .profile-pic{
+
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #474747;
+}
+
+.header {
+    background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.banner {
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner .profile-pic {
     width: 400px;
+}
+
+.banner-greeting {
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0px;
+}
+
+.banner-title {
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 500;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.banner-description {}
+
+.banner-content {
+    max-width: 400px;
+    align-items: center;
+}
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.about {
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px 140px 130px;
+}
+
+.section-title {
+    text-align: center;
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.section-description {
+    color:#757575;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+}
+
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+
+}
+.about-info{
+    text-align: center;
 }
